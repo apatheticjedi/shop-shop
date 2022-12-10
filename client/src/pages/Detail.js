@@ -12,7 +12,6 @@ import {
 import { QUERY_PRODUCTS } from '../utils/queries';
 import spinner from '../assets/spinner.gif';
 import Cart from '../components/Cart';
-import CartItem from '../components/CartItem';
 
 function Detail() {
   const [state, dispatch] = useStoreContext();
